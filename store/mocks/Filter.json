@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Event A",
+      "venue": "Maximum Uniq Hall",
+      "date": "2023-05-07"
+    },
+    {
+      "name": "Event B",
+      "venue": "Maximum Uniq Ball",
+      "date": "2023-05-08"
+    },
+    {
+      "name": "Event C",
+      "venue": "Maximum Uniq Lounge",
+      "date": "2023-05-10"
+    },
+    {
+      "name": "Event D",
+      "venue": "Maximum Uniq Açıkhava",
+      "date": "2023-05-12"
+    },
+    {
+      "name": "Event E",
+      "venue": "Bahçe Fuaye",
+      "date": "2023-05-15"
+    }
+  ]
+  
