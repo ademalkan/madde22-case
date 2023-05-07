@@ -29,6 +29,7 @@ function EventCard({ event }: { event: Event }) {
           src={image}
           alt="Product Image"
           className="object-cover w-full h-40"
+          crossOrigin="anonymous"
         />
       </div>
       <div className="px-4 py-6">
