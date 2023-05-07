@@ -10,7 +10,7 @@ function EventList({ events }: Props) {
   return (
     <>
       {events?.map((event) => (
-        <EventCard key={event.id} event={event}  />
+        <EventCard key={event?.id} event={event}  />
       ))}
     </>
   );

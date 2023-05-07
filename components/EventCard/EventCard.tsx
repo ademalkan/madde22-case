@@ -1,4 +1,5 @@
 import Event from "@/store/interfaces/Event";
+import Image from "next/image";
 import React from "react";
 
 function EventCard({ event }: { event: Event }) {
@@ -24,7 +25,7 @@ function EventCard({ event }: { event: Event }) {
         <div className="text-white bg-blue-500 w-fit px-8 -ms-6 absolute md:top-8 -top-3  ">
           {title}
         </div>
-        <img
+        <Image
           src={image}
           alt="Product Image"
           className="object-cover w-full h-40"
