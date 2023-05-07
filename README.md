@@ -24,3 +24,10 @@ Start project with development:
 ```bash
 npm run dev
 ```
+
+Open the project this url:
+
+```bash
+http://localhost:3000/
+```
+
