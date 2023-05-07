@@ -78,10 +78,10 @@ function Filter() {
               Etkinlik Mekanı
             </h2>
             <ul>
-              {events?.map((event) => {
+              {events?.map((event, key) => {
                 return (
                   <li
-                    key={event?.id}
+                    key={key}
                     className={`flex items-center py-1 cursor-pointer `}
                     onClick={() => handleVenueOptionClick(event.name)}
                   >
